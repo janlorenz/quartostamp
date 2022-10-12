@@ -1,3 +1,8 @@
+Name: Insert colored span
+Description: Insert a colored span
+Binding: stamp_coloredspan
+Interactive: false
+
 Name: Insert Aside
 Description: Insert a div that creates an 'aside' in a Revealjs presentation slide.
 Binding: stamp_aside
