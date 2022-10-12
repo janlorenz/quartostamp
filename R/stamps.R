@@ -6,7 +6,7 @@
 #' @details
 #' Output looks like this:
 #' ```
-#' []{style="color:red;"}
+#' []{style='color:red;'}
 #' ```
 #'
 #' @references
@@ -16,7 +16,7 @@
 stamp_coloredspan <- function() {
   rstudioapi::insertText(
     paste0(
-      "[]{style="color:red;"}"
+      "[]{style='color:red;'}"
     )
   )
 }
