@@ -1,4 +1,27 @@
 
+#' Insert colored span
+#'
+#' Insert a span with css color specification with default color "red 
+#'
+#' @details
+#' Output looks like this:
+#' ```
+#' []{style="color:red;"}
+#' ```
+#'
+#' @references
+#' [The Quarto documentation website.](https://quarto.org/docs/reference/)
+#'
+#' @export
+stamp_coloredspan <- function() {
+  rstudioapi::insertText(
+    paste0(
+      "[]{style="color:red;"}"
+    )
+  )
+}
+
+
 #' Insert Aside
 #'
 #' Insert a div that creates an 'aside' in a Revealjs presentation slide.
