@@ -6,19 +6,26 @@
 \alias{quartostamp-package}
 \title{quartostamp: RStudio Addin to Insert Quarto Helpers}
 \description{
-\if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-An RStudio Addin to insert ('stamp') pre-written classes and divs into your Quarto documents. URL: https://matt-dray.github.io/quartostamp/, https://github.com/matt-dray/quartostamp
+An RStudio Addin to insert ('stamp') pre-written classes and divs into your Quarto documents.
 }
 \seealso{
 Useful links:
 \itemize{
+  \item \url{https://matt-dray.github.io/quartostamp/}
+  \item \url{https://github.com/matt-dray/quartostamp}
   \item Report bugs at \url{https://github.com/matt-dray/quartostamp/issues}
 }
 
 }
 \author{
 \strong{Maintainer}: Matt Dray \email{mwdray@gmail.com}
+
+Other contributors:
+\itemize{
+  \item Zoë Turner (\href{https://orcid.org/0000-0003-1033-9158}{ORCID}) [contributor]
+}
 
 }
 \keyword{internal}
