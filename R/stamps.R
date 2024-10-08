@@ -12,7 +12,7 @@
 #' [The Quarto documentation website.](https://quarto.org/docs/reference/)
 #'
 #' @export
-stamp_coloredspan <- function() {
+stamp_redcoloredspan <- function() {
   rstudioapi::insertText(
     paste0(
       "[]{style='color:red;'}"
@@ -34,7 +34,7 @@ stamp_coloredspan <- function() {
 #' [The Quarto documentation website.](https://quarto.org/docs/reference/)
 #'
 #' @export
-stamp_coloredspan <- function() {
+stamp_bluecoloredspan <- function() {
   rstudioapi::insertText(
     paste0(
       "[]{style='color:blue;'}"
