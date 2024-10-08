@@ -1,6 +1,6 @@
 #' Insert Red Colored Span
 #'
-#' Insert a span with css color specification with default color "red
+#' Insert a span with css color specification with default color "red"
 #'
 #' @details
 #' Output looks like this:
@@ -22,7 +22,7 @@ stamp_redcoloredspan <- function() {
 
 #' Insert Blue Colored Span
 #'
-#' Insert a span with css color specification with default color "red
+#' Insert a span with css color specification with default color "blue"
 #'
 #' @details
 #' Output looks like this:
