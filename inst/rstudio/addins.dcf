@@ -1,10 +1,10 @@
 Name: Insert red colored span
-Description: Insert a colored span
+Description: Insert a red colored span
 Binding: stamp_redcoloredspan
 Interactive: false
 
 Name: Insert blue colored span
-Description: Insert a colored span
+Description: Insert a blue colored span
 Binding: stamp_bluecoloredspan
 Interactive: false
 

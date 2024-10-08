@@ -20,11 +20,11 @@ The output looks like this if the user hadn't selected any text:
 
 \if{html}{\out{<div class="sourceCode">}}\preformatted{:::: \{.columns\}
 
-::: \{.column width='40\%'\}
+::: \{.column width='50\%'\}
 Left column
 :::
 
-::: \{.column width='60\%'\}
+::: \{.column width='50\%'\}
 Right column
 :::
 
