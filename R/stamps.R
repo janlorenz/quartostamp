@@ -1,4 +1,4 @@
-#' Insert colored span
+#' Insert red colored span
 #'
 #' Insert a span with css color specification with default color "red
 #'
@@ -16,6 +16,28 @@ stamp_coloredspan <- function() {
   rstudioapi::insertText(
     paste0(
       "[]{style='color:red;'}"
+    )
+  )
+}
+
+#' Insert blue colored span
+#'
+#' Insert a span with css color specification with default color "red
+#'
+#' @details
+#' Output looks like this:
+#' ```
+#' []{style='color:blue;'}
+#' ```
+#'
+#' @references
+#' [The Quarto documentation website.](https://quarto.org/docs/reference/)
+#'
+#' @export
+stamp_coloredspan <- function() {
+  rstudioapi::insertText(
+    paste0(
+      "[]{style='color:blue;'}"
     )
   )
 }
@@ -207,11 +229,11 @@ stamp_callout_caution <- function() {
 #' ```
 #' :::: {.columns}
 #'
-#' ::: {.column width='40%'}
+#' ::: {.column width='50%'}
 #' Left column
 #' :::
 #'
-#' ::: {.column width='60%'}
+#' ::: {.column width='50%'}
 #' Right column
 #' :::
 #'
@@ -230,13 +252,13 @@ stamp_columns <- function() {
     pre = paste0(
       ":::: {.columns}\n",
       "\n",
-      "::: {.column width='40%'}\n"
+      "::: {.column width='50%'}\n"
     ),
     body = "Left column\n",
     post = paste0(
       ":::\n",
       "\n",
-      "::: {.column width='60%'}\n",
+      "::: {.column width='50%'}\n",
       "Right column\n",
       ":::\n",
       "\n",
